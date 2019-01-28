@@ -36,4 +36,5 @@ CREATE TABLE `sikilat_db`.`pengirim` (
 INSERT INTO `laporan_pengiriman` (`id`, `tanggal`, `id_admin`) VALUES ('123456', '2019-01-07 00:00:00', '0');
 
 SELECT * FROM pengirim;
+SELECT * FROM laporan_pengiriman;
 -- Yulinda.
