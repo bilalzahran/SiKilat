@@ -24,4 +24,12 @@ CREATE TABLE `sikilat_db`.`pengirim` (
  	`id_admin` INT(10) NOT NULL , 
  	PRIMARY KEY (`id`)); 
 
+ INSERT INTO `pengirim` (`id`, `nama_pengirim`, `alamat`, `no_telp`, `username`, `password`, `foto`) VALUES 
+ (NULL, 'Bilal', 'GBA 2', '085956243648', 'bilal', 'bial', 'linkfoto'),
+ (NULL, 'Astrid', 'UjungBerung', '085242078055', 'astridvt', '123456', 'linkfoto1'),
+ (NULL, 'Yulinda', 'Sukabirus', '081321353333', 'Yulinda', 'yeyeye', 'linkfoto2'),
+ (NULL, 'Afri', 'PGA', '0815366654050', 'AFRIMAI', '098765', 'linkfoto3'),
+ (NULL, 'vena', 'BuahBatu', '082145757577', 'venavt', 'veveelia', 'linkfoto4'),
+
+ ;
 -- Yulinda.
