@@ -18,6 +18,10 @@ CREATE TABLE `sikilat_db`.`pengirim` (
 	`foto` VARCHAR(100) NOT NULL , 
 	PRIMARY KEY (`id`(10)));
 
- 
+ CREATE TABLE `sikilat_db`.`laporan_pengiriman` ( 
+ 	`id` INT(10) NOT NULL AUTO_INCREMENT ,
+ 	`tanggal` DATETIME NOT NULL , 
+ 	`id_admin` INT(10) NOT NULL , 
+ 	PRIMARY KEY (`id`)); 
 
 -- Yulinda.
