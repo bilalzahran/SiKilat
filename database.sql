@@ -48,4 +48,6 @@ VALUES (NULL, '30000', '2019-01-02 00:00:50', '3'),
  INSERT INTO `pembayaran` (`id`, `jumlah`, `tanggal`, `id_laporan`) 
  VALUES (NULL, '50000', '2019-01-05 00:05:20', '5');
 
- 
+SELECT * FROM `pembayaran`;
+
+SELECT * FROM `admin`;
