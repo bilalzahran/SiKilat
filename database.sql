@@ -32,4 +32,7 @@ CREATE TABLE `sikilat_db`.`pengirim` (
  (NULL, 'vena', 'BuahBatu', '082145757577', 'venavt', 'veveelia', 'linkfoto4'),
 
  ;
+
+INSERT INTO `laporan_pengiriman` (`id`, `tanggal`, `id_admin`) VALUES ('123456', '2019-01-07 00:00:00', '0');
+
 -- Yulinda.
