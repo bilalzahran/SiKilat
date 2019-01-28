@@ -20,3 +20,8 @@ CREATE TABLE `sikilat_db`.`admin` (
 	`foto` VARCHAR(100) NOT NULL , 
 	`level` INT(1) NOT NULL , 
 	PRIMARY KEY (`id`)) ;
+
+CREATE TABLE `sikilat_db`.`pembayaran` ( `id` INT(10) NOT NULL AUTO_INCREMENT, 
+	`jumlah` INT(7) NOT NULL ,
+	 `tanggal` DATETIME NOT NULL , 
+	`id_laporan` INT(10) NOT NULL );
