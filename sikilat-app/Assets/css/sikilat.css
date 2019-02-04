@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	color: #707070;	
+}
+/*-------Landing Section-------*/
+nav{
+	position: fix;
+	line-height: 90px;
+	text-align: right;
+	padding:0 80px 0 80px;
+	 /*background-color: #DEDEDE;*/
+  	transition: 0.2s;
+  	display: flex;
+}
+nav a{
+	color: #707070;
+}
+nav a img{
+	width: 15%;
+	height: 15%;
+	float: left;
+}
+nav a:link{
+	margin-right: 41px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #707070;
+}
+header h1{
+	font-size: 30px;
+	font-weight: 100;
+}
+header p{
+	font-size: 25px;
+	font-weight: 90;
+}
+
+.landing{
+	background-image: linear-gradient(150deg, #A8D0DA, #D8E8E8);
+}
+.content{
+	padding:150px 80px 100px 80px;
+}
+.landing-content{
+	margin-top: 40px;
+}
+.btnMasuk{
+	padding: 10px;
+	width: 120px;
+	border-radius: 25px;
+	background-color: #ED5565;
+	box-shadow: 1px 1px 6px #A2A0A0;
+}
+
+.btnDaftar{
+	background-color: transparent;
+	border: 2px solid #ED5565;
+	border-radius: 25px;
+	padding: 10px;
+	width: 120px;
+	box-shadow: 1px 1px 6px #A2A0A0;
+}
+/*-------Our Service Section-------*/
+.our-service-background{
+	margin-top: 50px;
+	background-image: url("../pic/OurServiceBackground.png");
+	background-repeat: no-repeat;
+	background-position-x: 50px;
+	z-index: -2;
+}
+.our-service-content{
+	margin-top: 30px;
+	text-align: center;
+}
+.our-service-content img{
+	height: 128px;
+	width: 128px;
+}
+#our-service-circle{
+	position: absolute;
+	margin-right: 0;
+	z-index: -2;
+	top: 30;
+	right: 0;
+}
+.down-service{
+	margin-top: 100px;
+}
+/*-------Lacak & Cek Tarif Pengiriman Section-------*/
+.tracking-check{
+	margin-top: 100px;
+	display: inline-block;
+	min-height: 451px;
+	background-image: url("../pic/LacakPengirimanCircle2.png"),url("../pic/LacakPengirimanCircle.png");
+	background-repeat: no-repeat;
+	background-position: 100% 50%,top left;
+}
+.centered-div{
+	margin-top: 50px;
+	float: left;
+	padding: 50px 10px 0px 30px;
+	min-width: 543px;
+	min-height: 216px;
+	box-shadow: 3px 6px 20px #A2A0A0;
+}
+#lacak-pengiriman{
+	background-image: linear-gradient(150deg, #A8D0DA, #D8E8E8);
+	color: #FFFFFF;
+}#lacak-pengiriman span{
+	color: #FFFFFF;
+}
+#cek-tarif{  	
+	background-color: #FFFFFF;
+	color:#A8D0DA;
+}
+/*-------Footer Section-------*/
+.footer{
+	margin: 0;
+	padding: 30px 50px 0px 50px;
+	min-height: 200px;
+	background-image: linear-gradient(150deg, #A8D0DA, #D8E8E8);
+}
