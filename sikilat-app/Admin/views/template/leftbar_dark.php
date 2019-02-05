@@ -45,7 +45,13 @@
                                 <a href="widgets.php">
                                     <i class="mdi mdi-package"></i> <span> Pengiriman </span>
                                 </a>
+                            </li>   
+                            <li>
+                                <a href="widgets.php">
+                                    <i class="mdi mdi-credit-card-multiple"></i> <span> Pembayaran </span>
+                                </a>
                             </li>                            
+                         
 
                             <li>
                                 <a href="javascript: void(0);"><i class="mdi mdi-file"></i><span> Laporan </span> <span class="menu-arrow"></span></a>
