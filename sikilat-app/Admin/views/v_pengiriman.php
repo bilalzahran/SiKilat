@@ -49,7 +49,25 @@
                                         <td>Cirebon</td>
 										<td>On Process</td>
 										<td>
-										<button type="button" class="btn btn-light waves-effect">Info</button>
+										<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Info Pengiriman</h4>
+													
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Pop Up ini berisikan informasi lengkap tentang pengriman</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-light waves-effect" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-success waves-light waves-effect">Konfirmasi</button>
+                                                </div>
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal-dialog -->
+                                    </div><!-- /.modal -->
+										<button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="modal" data-target="#myModal">Info</button>
 										<button type="button" class="btn btn-success waves-light waves-effect">Konfirmasi</button>
 										</td>
                                     </tr>
