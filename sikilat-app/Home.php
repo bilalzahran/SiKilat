@@ -16,26 +16,6 @@
 			<a href="#" >Layanan</a>
 			<a href="#" >Masuk/Daftar</a>
 		</nav>
-<!-- 		<nav class="navbar navbar-expand-lg">			
-		<div class="collapse navbar-collapse">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a href="#" class="">
-						<img id="logo" src="Assets/pic/logo.png" alt="Sikilat-Logo">
-					</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Beranda</a>					
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Layanan</a>					
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Masuk/Daftar</a>
-				</li>
-			</ul>
-		</div>
-		</nav> -->
 		<div class="container-fluid">
 			<div class="row landing">
 				<div class="col-md-12">
@@ -50,7 +30,7 @@
 								<button class="btnDaftar"><b>Daftar</b></button>
 							</div>
 							<div class="col-md-5 landing-logo">
-								<img src="Assets/pic/package.png" alt="Sikilat-Logo">
+								<img class="landing-img" src="Assets/pic/delivery.png" alt="Sikilat-Logo">
 							</div>
 						</div>
 					</header>
