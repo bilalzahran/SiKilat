@@ -9,6 +9,32 @@
 			include('views/template/footer_start.php');
 			include('views/template/footer_end.php');	
 		}
+		public function Pengiriman(){
+			include('views/template/header_start.php');
+			include('views/template/header_end_dark.php');
+			include('views/template/leftbar_dark.php');
+			include('views/template/topbar.php');
+			include('views/v_pengiriman.php');
+			include('views/template/footer_start.php');
+			include('views/template/footer_end.php');				
+		}		
+		public function Laporan_pengiriman(){
+			include('views/template/header_start.php');
+			include('views/template/header_end_dark.php');
+			include('views/template/leftbar_dark.php');
+			include('views/template/topbar.php');
+			include('views/v_laporan_pengiriman.php');
+			include('views/template/footer_start.php');
+			include('views/template/footer_end.php');	
+		}
+		public function Laporan_pembayaran(){
+			include('views/template/header_start.php');
+			include('views/template/header_end_dark.php');
+			include('views/template/leftbar_dark.php');
+			include('views/template/topbar.php');
+			include('views/v_laporan_pembayaran.php');		
+			include('views/template/footer_start.php');
+			include('views/template/footer_end.php');	
+		}
 	}
-
- ?>
+?>
