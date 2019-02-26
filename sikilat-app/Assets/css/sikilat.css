@@ -130,3 +130,12 @@ header p{
 	min-height: 200px;
 	background-image: linear-gradient(150deg, #A8D0DA, #D8E8E8);
 }
+
+
+/*----- Login ----*/
+.login{
+	min-height: 690px;
+}
+.login-form{
+	
+}

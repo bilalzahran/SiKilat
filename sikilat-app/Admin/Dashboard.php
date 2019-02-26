@@ -1,7 +1,10 @@
 <?php 
 	
 	include_once('controller/PageController.php');
+	class Dashboard extends PageController{
+		
+	}
 
-	$page = new PageController();
-	$page->dashboard();
+	$dashboard = new Dashboard();
+	$dashboard->dashboard();
  ?>
