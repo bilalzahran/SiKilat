@@ -1,5 +1,5 @@
 <?php
-	include_once('model/PengirimanModel.php');	
+		include_once('model/PengirimanModel.php');	
 	class PengirimanController{
 		
 		public function generateRandomString() {
@@ -10,13 +10,14 @@
  			$pengirimanmodel = new PengirimanModel();
  			$pengirimanmodel->insert($data);
  		}
- 		public function getPengirimanByID($id){ 	
+ 		public function getPengirimanByID($id){ 			
  			$pengirimanmodel = new PengirimanModel();		
  			return $pengirimanmodel->getDataByID($id);
  		}
  		public function getLastId(){
  			$pengirimanmodel = new PengirimanModel();
  			$pengirimanmodel->getLastId();
+ 			return $pengirimanmodel->getData();
  		}
-	}	
+	}	 		
 ?>
