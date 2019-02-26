@@ -47,12 +47,18 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td><button type="button" class="btn btn-light waves-effect">Detail</button></td>
-                                    </tr>
+                                        <?php while($row = mysqli_fetch_array($data)){
+                                            $i = 1;
+                                        ?>
+                                        <tr>
+                                            <td><?php echo $i; ?> </td>
+                                            <td><?php echo $row['tanggal']; ?> </td>
+                                            <td> <?php echo $row['nama']; ?></td>
+                                            <td><button type="button" class="btn btn-light waves-effect">Detail</button></td>
+                                        </tr>
+                                        <?php
+                                            $i = $i + 1;
+                                        } ?>                                    
                                     </tbody>
                                 </table>    
                                 </div>
