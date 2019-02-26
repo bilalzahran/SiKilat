@@ -1,6 +1,6 @@
 <?php 
 	class PageController{
-		protected function dashboard(){
+		public function dashboard(){
 			include('views/template/header_start.php');
 			include('views/template/header_end_dark.php');
 			include('views/template/leftbar_dark.php');
